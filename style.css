@@ -203,4 +203,5 @@ p.two {
     .abilities { flex-direction: column; align-items: center; gap: 15px;}
     .inside {flex-direction: column; padding: 20px 10px;}
     .footer p { font-size: 1rem;}
+    p.quote { font-size: 2.5rem;}
 }
