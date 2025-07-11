@@ -195,3 +195,12 @@ p.two {
     font-weight: bold;
     color: white;
 }
+@media(max-width:768px) {
+    .container { height: 1000px;}
+    .navbar { flex-direction: column;}
+    .details { flex-direction: column; justify-content: space-between; gap: 20px;}
+    .skills {height: 1650px;}
+    .abilities { flex-direction: column; align-items: center; gap: 15px;}
+    .inside {flex-direction: column; padding: 20px 10px;}
+    .footer p { font-size: 1rem;}
+}
