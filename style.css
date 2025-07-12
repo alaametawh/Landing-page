@@ -195,6 +195,9 @@ p.two {
     font-weight: bold;
     color: white;
 }
+#yi-photo {
+    width: 650px;
+}
 @media(max-width:768px) {
     .container { height: 1000px;}
     .navbar { flex-direction: column;}
@@ -204,4 +207,5 @@ p.two {
     .inside {flex-direction: column; padding: 20px 10px;}
     .footer p { font-size: 1rem;}
     p.quote { font-size: 2.5rem;}
+    #yi-photo { width: 100%;}
 }
